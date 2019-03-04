@@ -124,3 +124,21 @@ body {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.carousel-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-container .carousel-item img {
+  max-height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.fas {
+  color: #931d25;
+  margin: 5px 10px;
+}
+.display-none {
+  display: none;
+}
